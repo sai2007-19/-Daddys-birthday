@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background: url(1.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cake{
+    position: absolute;
+    top: 60%;
+    left: 1%;
+}
+
+.cake2{
+    position: absolute;
+    top: 60%;
+    left: 33%;
+}
+
+.cake3{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+}
+.text{
+    position: absolute;
+    left: 32%;
+    top: 20%;
+    width: 50%;
+}
+h1{
+    font-family: Cedarville Cursive;
+    position: absolute;
+    color: white;
+    margin-top: 10%;
+    font-size: 3.5rem;
+}
+h2{
+    font-family: Cedarville Cursive;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 22%;
+    font-size: 2.5rem;
+    color: white;
+}
+h3{
+    font-family: Cedarville Cursive;
+    position: absolute;
+    color: white;
+    margin-top: -10%;
+    margin-left: -8%;
+    font-size: 1.5rem;
+}
+#gift{
+    position:absolute;
+    top:40%;right:2%;left:0;bottom:0;
+    margin:auto;
+    width:100px;
+    height:125px;
+  }
+ h4{
+    position:absolute;
+    top:75%;right:0;left:2%;bottom:0;
+    margin:auto;
+    width:100px;
+    height:125px;
+    color: white;
+    font-family: Cedarville Cursive;
+    font-size: 1.5rem;
+  }
+  #ribbon{
+    position:relative;
+    width:60px;
+    height:60px;
+    transform:rotate(45deg);
+    margin:auto;
+    margin-bottom:-38px;
+    border-radius:0 8px 0 8px;
+  }
+  #ribbon:before{
+    content:"";
+    height:24px;
+    width:100%;
+    background-color:#F04D4D;
+    display:block;
+    position:absolute;
+    top:18px;
+    box-shadow:0 0 1px rgba(0,0,0,0.4);
+    border-radius:inherit;
+  }
+  #ribbon:after{
+    content:"";
+    height:100%;
+    width:24px;
+    background-color:#F04D4D;
+    display:block;
+    margin:auto;
+    box-shadow:0 0 1px rgba(0,0,0,0.4);
+    border-radius:inherit;
+  }
+  #giftbox{
+    transition: 0.9s;
+    position:relative;
+    margin:auto;
+    width:100px;
+    height:100px;
+    background-color:white;
+    border-radius:2px;
+    box-shadow:0 0 1px rgba(0,0,0,0.4);
+    overflow:hidden;
+  }
+  #giftbox:hover{
+      background-color: blue;
+      box-shadow: 0 0 4px white;
+      transform: rotateX(30deg);
+  }
+  #giftbox:before{
+    content:"";
+    height:24%;
+    width:100%;
+    background-color:#F04D4D;
+    display:block;
+    position:absolute;
+    top:38%;
+    box-shadow:inherit;
+  }
+  #giftbox:after{
+    content:"";
+    height:100%;
+    width:24%;
+    background-color:#F04D4D;
+    display:block;
+    margin:auto;
+    box-shadow:inherit;
+  }
+  

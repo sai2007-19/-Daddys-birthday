@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background: url(1.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    left: 32%;
+    top: -4%;
+    width: 50%;
+}
+h1{
+    font-family: Cedarville Cursive;
+    position: absolute;
+    color: white;
+    margin-top: 10%;
+    font-size: 3.5rem;
+}
+h2{
+    font-family: Cedarville Cursive;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 22%;
+    font-size: 2.5rem;
+    color: white;
+}
+
+img{
+    transition: 0.9s;
+    box-shadow: 0 0 10px white;
+}
+img:hover{
+    box-shadow: 0 0 20px blue;
+}
+.img1{
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+}
+
+.img2{
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+}
+
+.img3{
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 79%;
+}
+
+.img4{
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 26%;
+}
